@@ -27,14 +27,14 @@ start_recording()
 #
 # Hint: It's rice and beans. Yum, string beans.
 
-favorite_food = '' # Your answer here
+favorite_food = 'rice and beans' # Your answer here
 
 print(favorite_food)
 
 # TODO 2: Calculate the volume of a 7 x 7 x 5 cube using Python math
 # operations.
 
-volume = 0 # Your answer here
+volume = 7 * 7 * 5 # Your answer here
 
 print(volume)
 
@@ -48,6 +48,9 @@ print(volume)
 hydraulic_processes = ['flocculation', 'sedimentation', 'stirring']
 
 # Your answer here
+hydraulic_processes.pop()
+hydraulic_processes.append('filtration')
+hydraulic_processes[1] = '1 LPS'
 
 print(hydraulic_processes)
 
@@ -57,6 +60,7 @@ print(hydraulic_processes)
 analogy = {'knowledge' : 'power', 'France': 'ham'}
 
 # Your answer here
+analogy['France'] = 'bacon'
 
 print(analogy['knowledge'] + ' ' + analogy['France'])
 
@@ -77,6 +81,12 @@ does_it_work = 'maybe'
 
 # Your answer here
 
+if (a or b) and (c == false):
+  does_it_work = 'yes'
+else:
+  does_it_work = 'no'
+end
+
 print(does_it_work)
 
 # TODO 6: Write a for loop that multiplies x by each integer from 1 to
@@ -88,7 +98,8 @@ print(does_it_work)
 x = 1
 
 # Your answer here
-
+for i in range (1, 31)
+  x = x * i
 print(x)
 
 # TODO 7: Write a function called 'squared' that takes in a number and
@@ -100,6 +111,10 @@ print(x)
 x = 4
 
 # Your answer here
+def squared(number):
+  return number ** 2
+for j in range (0, 6):
+  x = squared(x)
 
 print(x)
 
