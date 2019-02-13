@@ -99,7 +99,7 @@ x = 1
 
 # Your answer here
 for i in range (1, 31)
-  x = x * i
+  x *= i
 print(x)
 
 # TODO 7: Write a function called 'squared' that takes in a number and
