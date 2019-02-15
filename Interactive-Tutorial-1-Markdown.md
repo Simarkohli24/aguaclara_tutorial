@@ -68,8 +68,7 @@ Insert the Cornell seal image with:
 ## Code Formatting
 1. File Path(`/images/Cornell_University_seal.png`)
 
-2. ![Cornell Seal](http://ipwire.com/wp-content/uploads/2017/09/Cornell-Univesity-Seal.jpg)
-Put the name of this file in an in-line (single backtick) code format.
+2. Put the name of this file in an in-line (single backtick) code format.![Cornell Seal](http://ipwire.com/wp-content/uploads/2017/09/Cornell-Univesity-Seal.jpg)
 
 <!-- Write your answer here. -->
 
