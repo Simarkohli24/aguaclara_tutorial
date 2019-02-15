@@ -99,8 +99,10 @@ array2dunitssize = np.size(array2dunits)
 $$ D = \frac{k_BT}{6\pi\eta r} $$
 
 ```python
+from aguaclara.play import
+
 from scipy.constants import Boltzmann as kB_sc # I've imported the unitless value for kB from SciPy
-kB = kB_sc * u.joules / u.kelvin
+kB = kB_sc * u.joules / u.degK
  # I've given kB units for you in J/K; you can use the kB variable to give you Boltzmann's constant with units
 # Write your code here
 import math as m
